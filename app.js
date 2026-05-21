@@ -76,7 +76,7 @@ const products = [
   category:"beanies",
   price: 40,
   description: "Ash Beanie",
-  image:"./mages/beanies/Beanie Ash.Webp",
+  image:"./mages/beanies/beanie ash.Webp",
 },
 {
   
@@ -85,7 +85,7 @@ const products = [
   category:"beanies",
   price: 40,
   description: "Black Beanie",
-  image:"./mages/beanies/Beanie black.jpg",
+  image:"./mages/beanies/beanie black.jpg",
 },
 {
 
@@ -94,7 +94,7 @@ const products = [
   category:"beanies",
   price: 40,
   description: "Beanie dark blue" ,
-  image:"./mages/beanies/Beanie dark blue.jpg",
+  image:"./mages/beanies/beanie dark blue.jpg",
 },
 {
   id:"Beanie Orange",
