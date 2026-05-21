@@ -102,7 +102,7 @@ const products = [
   category:"beanies",
   price: 40,
   description: "Orange Beanie",
-  image:"./mages/beanies/beanie orange.jpg",
+  image:"./mages/beanies/beanie Orange.jpg",
 },
 {
   id:"Beanie White",
