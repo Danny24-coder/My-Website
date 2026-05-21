@@ -76,7 +76,7 @@ const products = [
   category:"beanies",
   price: 40,
   description: "Ash Beanie",
-  image:"./mages/beanies/beanie ash.Webp",
+  image:"./mages/beanies/beanie ash.webp",
 },
 {
   
@@ -102,7 +102,7 @@ const products = [
   category:"beanies",
   price: 40,
   description: "Orange Beanie",
-  image:"./mages/beanies/Beanie Orange.jpg",
+  image:"./mages/beanies/beanie orange.jpg",
 },
 {
   id:"Beanie White",
@@ -110,7 +110,7 @@ const products = [
   category:"beanies",
   price: 40,
   description: "White Beanie",
-  image:"./mages/beanies/Beanie white.jpg",
+  image:"./mages/beanies/beanie white.jpg",
 },
 
 {
@@ -119,7 +119,7 @@ const products = [
   category:"caps",
   price: 60,
   description: "Balck cap",
-  image:"./mages/caps/Black cap.webp",
+  image:"./mages/caps/black cap.webp",
 },
 {
   id:"Blue cap",
