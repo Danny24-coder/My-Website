@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width-device-width",initial-scale=1.0/>
+<title>Threadline  | Streetwear Picks</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+<div class="brand-block">
+<p class="eyebrow">Curated streetwear</p>
+<h1>Threadline</h1>
+</div>
+
+<nav class="top-nav" aria-label="primary">
+ <a href="#collection">Collection</a>
+ <a href="#cart-panel">cart</a>
+</nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-copy">
+        <p class="eyebrow">Clothes,Shoes,Caps,and Beanies</p>
+        <div class="hero-actions">
+           <a class="primary-button"href="#collection">shop now</a>
+           <a class="ghost-button" href="#cart-panel">View cart</a>
+        </div>
+
+<dl class="hero-stats">
+    <div>
+        <dt>Products</dt>
+        <dd>22</dd>
+        <div>
+            <dt>Categories</dt>
+            <dd>5</dd>
+        </div>
+    </div>
+    <dt>Code style</dt>
+    <dd>Commented</dd>
+</dl>
+        </div>
+    </div>
+
+    <span class="hero-art">
+        <img src=""
+        alt="Drip In style"
+        />
+    </span>
+    </section>
+
+    <section class="collection-shell" id="collection">
+    <div class="collection-header">        
+    </div>
+    <p class="eyebrow">collection</p>
+    <h3>Fresh picks for the catalog</h3>
+    <div>
+
+        <div class="filter-row" aria-label="Prodcut filters">
+            <button class="filter-chip active" data-category="all" type="button">
+                All
+            </button>
+            <button class="filter-chip" data-category="clothes" type="button">
+                Clothes
+            </button>
+            <button class="filter-chip" data-category="shoes" type="button">
+                Shoes
+            </button>
+            <button class="filter-chip" data-category="caps" type="button">
+                Caps
+            </button>
+            <button class="filter-chip" data-category="beanies" type="button">
+                Beanies
+            </button>
+        </div>
+
+     
+<div class="store-layout">
+  <section
+    class="product-grid"
+    aria-live="polite"
+    aria-label="Products"
+    data-product-grid
+  ></section>
+
+            <aside class="cart-panel" id="cart-panel">
+                <div class="cart-heading">
+                     </div>
+                     <p class="eyebrow">cart</p>
+                     <h3>Your Lineup</h3>
+                     <div>
+                        <span class="cart-count" data-cart-count>0 items</span>
+                     </div>
+
+                     <div class="cart-items" data-cart-items></div>
+
+                     <div class="cart-summary">
+                      </div>
+                      <span>Subtotal</span>
+                      <strong data-subtotal>$0.00</strong>
+                    </div>
+                </div>
+                   <span>Shipping</span>
+                   <strong data-shipping>$0.00</strong>
+            </div>
+            <div class="summary total">
+                <span>Total</span>
+                <strong data-total>$0.00</strong>
+            </div>
+        </div>
+                <button class="primary-button wide-button" type="button" data-checkout-button="">
+                    checkout
+                </button>
+
+                <p class="checkout-feedback" data-checkout-feedback hidden></p>
+            </aside>
+        </div>
+    </section>
+ </main>
+
+
+   <script src="app.js"></script>
+ </body>
+</html>
